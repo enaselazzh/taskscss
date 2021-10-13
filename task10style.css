@@ -1,0 +1,58 @@
+.positioning{
+    background: tomato;
+    width: 100%;
+}
+.positioning .box{
+    height: 200px;
+    width:30% ;
+    margin: 10px;
+    
+}
+.positioning .box:nth-child(odd){
+    background-color:green;
+}
+.positioning .box:nth-child(even){
+  background-color: yellow;
+}
+
+
+.positioning .box1{ 
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+     left: 20px;
+     z-index:999999; 
+    
+
+}
+.positioning .box2{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    z-index:8 ; 
+    
+
+}
+.positioning .box3{
+     position: absolute;
+     bottom: 50px;
+    left: 50px;
+     z-index:7 ; 
+    
+
+}
+.positioning .box4{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+     z-index:6; 
+    
+
+}
+.positioning .box5{
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+     z-index:2 ;
+
+}

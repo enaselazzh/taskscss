@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(228, 220, 220);
+}
+
+.articl .box1{
+    border: 1px solid black;
+     width: 50%;
+     background-color: white;
+     padding: 10px;
+}
+.articl  span{
+    background-color: rgb(218, 165, 155);
+    
+}
+.articl  .span2{
+    background-color: yellow;
+}
+.articl .box2{
+    margin-top: 10px;
+    border: 2px dashed black;
+     width: 50%;
+     background-color: white;
+     padding: 10px;
+}
+.articl .box2 p{
+    border: 2px dashed red;
+}
+.articl .box3{
+    margin-top: 10px;
+    border: 1px solid black;
+     width: 50%;
+     background-color: white;
+     color: rgb(146, 33, 146);
+     padding: 10px;
+}

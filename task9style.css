@@ -1,0 +1,25 @@
+.hr{
+    border: 1px solid black ;
+}
+.zig-zag{
+    display: flex;
+    flex-wrap: wrap;
+}
+.zig-zag .child{
+   
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+}
+.zig-zag .child:nth-child(odd){
+    background-color: yellow;
+   
+   
+
+}
+.zig-zag .child:nth-child(even){
+    background-color: green;
+    position: relative;
+    top:20px;
+}

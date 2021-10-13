@@ -1,0 +1,37 @@
+.title{
+    text-decoration: underline
+}
+
+.hr{
+    border: 1px solid black ;
+}
+.content p{
+    color: blue;
+}
+.content p a{
+    color:orange;
+}
+.content .nocolor{
+    color: black;
+}
+.content p .bkcolor{
+    background: yellow;
+    color: black;
+}
+.contantlist .lipadding{
+    padding: 5px;
+}
+.contantlist ul li span{
+  font-weight: bold;
+  
+}
+.contantlist ul li a{
+    color:red;
+    font-weight: bold;
+}
+.contantlist .newcolors li{
+    color: blue;
+}
+.contantlist .nonestyle{
+    list-style-type: none;
+}
