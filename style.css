@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+/* 
+    border: 1px solid black; */
+    height: 100vh;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 90%;
+    margin:auto;
+}
+.container  .menu{
+    display: none;
+}
+.container  img{
+   width: 45px;
+   margin-top: 50px;
+  
+
+}
+.container .itemlist ul{
+    overflow: hidden;
+    float: right;
+    margin-top: -34px;
+   
+}
+
+.container .itemlist ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+  
+
+    
+} 
+
+.back{
+    width: 41%;
+    height: 328px;
+    margin-top: 20px;
+    float: right;
+    border: 1px solid transparent;
+    border-top-left-radius: 39px;
+    border-bottom-left-radius: 39px;
+    background: linear-gradient(to right,rgb(226, 121, 121), rgb(214, 139, 152),rgba(218, 62, 88, 0.932))100%;
+     position: relative;
+    
+    
+}
+ .section1 .back i{
+    position:absolute;
+    right:86px;
+    bottom: 148px;
+    width: 38px;
+    font-size: 2em;
+    color: white;
+  
+}
+.back img{
+    position: absolute;
+    top: -43px;
+    left: -214px;
+    width: 115%;
+    
+}
+
+.back .text{
+    position: absolute;
+    right: 74px;
+    bottom: 129px;
+    color: white;
+}
+.section2{
+    margin: 50px;
+    position: relative;
+
+}
+.border::before{
+    content: "";
+    position: absolute;
+    left: -110px;
+    right: 0;
+    top: 67px;
+    width: 15%;
+    background-color: tomato;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(236, 159, 201, 0.774),rgba(233, 59, 88, 0.932));
+    transform: rotate(89deg);
+}
+
+.section2 .item{
+ font-weight: bold;
+ font-size: 2em;
+ padding: 2px;
+ 
+}
+.section2 .item1{
+  font-size: 1.5em;
+  padding: 8px;
+  color:rgb(92, 92, 92)
+
+}
+.section2 .item2{
+    font-size: 13px;
+    padding: 6px;
+    color:rgb(119, 119, 119)
+  
+  }
+  .section2 .price{
+    padding: 20px;
+    font-weight: bold;
+}
+.section2 button img{
+    width: 30px;
+}
+.section2 button img {
+    display: none;
+
+}
+.section2 button{
+    background: linear-gradient(to right,rgb(226, 121, 121), rgb(214, 139, 152),rgba(218, 62, 88, 0.932))100%;
+    padding: 8px;
+
+    width: 30%;
+    border: transparent solid 1px;
+    border-radius: 7px;
+    font-size: 11px;
+    /* margin: 6px; */
+    transition: width 2s ease-in-out;
+
+}
+
+
+.section2 .button:hover img{
+    display: inline-block;
+    height: 10px;
+    margin-top: 0 !important;
+    width: 60px;
+    float: right;
+    
+}
+.section3{
+    margin: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 i{
+
+    padding: 32px;
+    font-size: 15px;
+   text-align: center;
+}
+
+@media (max-width:768px) and (max-width:576px){
+    *{
+        margin: 0;
+    }
+    body{
+        height: 150vh;
+    }
+    .container .itemlist ul{
+        display: none;
+    }
+    
+    .container .menu{
+        display:inline;
+        float: right;
+        width: 30px;
+    }
+    .container .menu:hover + .itemlist ul{
+        display: flex;
+        height: 125px;
+        background-image: linear-gradient(to right, rgba(180, 103, 146, 0.774),rgba(233, 59, 88, 0.932));
+        flex-direction: column;
+        margin: -3px;
+        position: absolute;
+        top: 90px;
+        right: 31px;
+        width: 333px;
+        z-index: 99999;
+
+
+    }
+
+    
+    .section1{
+        display: flex;
+    }
+    .back{
+        width: 88%;
+        height: 206px;
+        margin-left: 67px;
+        position: relative;
+        
+        
+    }
+    .back img{
+        position: absolute;
+        top: -43px;
+        left: -110px;
+        width: 93%;
+        
+    }
+    .section1 .back i{
+        position: absolute;
+        right: 71px;
+        bottom: 109px;
+        width: 38px;
+        font-size: 1.5em;
+        color: white;
+      
+    }
+    .back .text{
+        position: absolute;
+        right: 58px;
+        bottom: 91px;
+        color: white;
+    }
+    .section2{
+        margin: 37px;
+        position: relative;
+    
+    }
+    .border::before{
+        content: "";
+        position: absolute;
+        left: -91px;
+        right: 0;
+        top: 67px;
+        width: 40%;
+        height: 5px;
+        background-image: linear-gradient(to right, rgba(236, 159, 201, 0.774),rgba(233, 59, 88, 0.932));
+        transform: rotate(89deg);
+    }
+    .section2 .item{
+        font-weight: bold;
+        font-size: 2rem;
+
+    }       
+    .section2 .item1{
+        font-size: 1.5rem;
+        padding: 4px;
+        color: rgb(92, 92, 92);
+      
+      }
+  .section2 .price{
+        padding: 20px;
+        font-weight: bold;
+    }
+    .section2 button{
+        background: linear-gradient(to right,rgb(226, 121, 121), rgb(214, 139, 152),rgba(218, 62, 88, 0.932))100%;
+        padding: 8px;
+        width: 118px;
+        border: transparent solid 1px;
+        border-radius: 7px;
+        font-size: 11px;
+        margin: 6px;
+    
+    }
+    
+}
+  
